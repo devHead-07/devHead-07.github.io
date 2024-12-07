@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="face.jpg" alt="Her Face" class="profile-pic">
+      <div class="header-text">
+        <h2>PUT HER NAME HERE</h2>
+      <p>Hello! Put some nice introductory text here; maybe a tagline or a short description</p>
+      </div>
+    </header>
+
+    <section id="gallery">
+
+      <div class="gallery-item" onclick="openModal('art/art1.jpg')">
+        <img src="art/art1.jpg" alt="Art Piece 1">
+        <p>Flowers, grapes, a pear, apple, and a bottle.</p>
+      </div>
+
+      <div class="gallery-item" onclick="openModal('art/art2.jpg')">
+        <img src="art/art2.jpg" alt="Art Piece 2">
+        <p>A cup above two books.</p>
+      </div>
+
+      <div class="gallery-item" onclick="openModal('art/art3.jpg')">
+        <img src="art/art3.jpg" alt="Art Piece 3">
+        <p>Four of the same art of oranges, each with different properties.</p>
+      </div>
+
+      <div class="gallery-item" onclick="openModal('art/art4.jpg')">
+        <img src="art/art4.jpg" alt="Art Piece 4">
+        <p>The cup, alongside shapes and a 3D semicircle.</p>
+      </div>
+
+      <div class="gallery-item" onclick="openModal('art/art5.jpg')">
+        <img src="art/art5.jpg" alt="Art Piece 5">
+        <p>An abstract kitten.</p>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:email@example.log">Email</a> her to reach out!</p>
+    </section>
+
+
+    <div id="modal" class="modal" onclick="closeModal()">
+      <span class="close">x</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+
+
+
+
+  </body>
+</html>
