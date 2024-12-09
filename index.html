@@ -28,28 +28,38 @@
     </div>
 
     <div class="gallery">
-      <div class="gallery-item"> <img src="./images/art/art1.jpg" alt="Art Piece 1">
+      <div class="gallery-item" onclick="openModal('images/art/art1.jpg', this.querySelector('p'))">
+        <img src="./images/art/art1.jpg" alt="Art Piece 1">
         <p>Description of Art Piece 1</p>
       </div>
 
-      <div class="gallery-item"> <img src="./images/art/art2.jpg" alt="Art Piece 2">
+      <div class="gallery-item" onclick="openModal('images/art/art2.jpg', this.querySelector('p'))">
+        <img src="./images/art/art2.jpg" alt="Art Piece 2">
         <p>Description of Art Piece 2</p>
       </div>
 
-      <div class="gallery-item"> <img src="./images/art/art3.jpg" alt="Art Piece 3">
+      <div class="gallery-item" onclick="openModal('images/art/art3.jpg', this.querySelector('p'))">
+        <img src="./images/art/art3.jpg" alt="Art Piece 3">
         <p>Description of Art Piece 3</p>
       </div>
 
-      <div class="gallery-item"> <img src="./images/art/art4.jpg" alt="Art Piece 4">
+      <div class="gallery-item" onclick="openModal('images/art/art4.jpg', this.querySelector('p'))">
+        <img src="./images/art/art4.jpg" alt="Art Piece 4">
         <p>Description of Art Piece 4</p>
       </div>
 
-      <div class="gallery-item"> <img src="./images/art/art5.jpg" alt="Art Piece 5">
+      <div class="gallery-item" onclick="openModal('images/art/art5.jpg', this.querySelector('p'))">
+        <img src="./images/art/art5.jpg" alt="Art Piece 5">
         <p>Description of Art Piece 5</p>
       </div>
 
     </div>
 
+    <div id="modal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <p id="modalDescription"></p>
+    </div>
 
     <div class="contact">
       <h2>Contact</h2>
@@ -58,7 +68,7 @@
       <p>Instagram: <a href="https://instagram.com/BLAHBLHABLAHABALABA" target="_blank">Put her Instagram</a></p>
     </div>
 
-    <!-- <script src="scripts.js"></script> -->
+    <script src="script.js"></script>
   </body>
 
 </html>
