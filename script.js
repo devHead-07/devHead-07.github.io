@@ -3,9 +3,9 @@ function openModal(imageSrc, descriptionElement) {
   let modalImage = document.getElementById("modalImage");
   let modalDescription = document.getElementById("modalDescription");
 
-  modal.style.display = "flex";  // Use flex to center content
+  modal.style.display = "flex";
   modalImage.src = imageSrc;
-  modalDescription.textContent = descriptionElement.textContent; // Get the text content of the description element
+  modalDescription.textContent = descriptionElement.textContent;
 }
 
 function closeModal() {
