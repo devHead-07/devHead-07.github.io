@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #FDF5E6;
-  /* Light pink background for a soft feel */
   overflow-x: hidden;
 }
 
@@ -16,11 +15,8 @@ body {
   padding: 2rem;
   animation: fadeIn 2s ease-out;
   background-color: #FFC0CB;
-  /* Light pink background for the container */
   border: 5px solid #C4B8B8;
-  /* Sage green border for a subtle contrast */
   border-radius: 10px;
-  /* Rounded corners */
 }
 
 .profile-pic {
@@ -31,9 +27,7 @@ body {
   object-fit: cover;
   margin-right: 2rem;
   border: 4px solid #fff;
-  /* White border for the profile picture */
   flex-shrink: 0;
-  /* Prevents the image from shrinking */
 }
 
 .about-text {
@@ -44,7 +38,6 @@ body {
   font-size: 2.5rem;
   margin: 0;
   color: #CD5C5C;
-  /* Light Coral (Red) */
 }
 
 .about-text p {
@@ -74,7 +67,6 @@ body {
 
 .gallery-item {
   background-color: #FFC0CB;
-  /* Light pink background for gallery items */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -82,26 +74,20 @@ body {
   text-align: center;
   max-width: 300px;
   width: 300px;
-  /* Set a consistent width for all gallery items */
   height: 400px;
-  /* Set a consistent height for all gallery items */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: transform 0.3s, box-shadow 0.3s;
-  /* Smooth transition for the pop-out effect */
   border: 3px solid #C4B8B8;
-  /* Sage green border for gallery items */
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   max-height: 200px;
-  /* Ensure the image height is consistent */
   object-fit: cover;
-  /* Ensure the image covers the area without stretching */
   border-radius: 8px;
 }
 
@@ -117,9 +103,7 @@ body {
 
 .gallery-item:hover {
   transform: scale(1.05);
-  /* Slightly enlarge the card */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  /* Add a more pronounced shadow */
 }
 
 .contact {
@@ -127,7 +111,6 @@ body {
   padding: 2rem;
   background-color: #fff;
   border-top: 2px solid #CD5C5C;
-  /* Light Coral border for a pop of color */
   margin-top: 2rem;
 }
 
@@ -150,7 +133,6 @@ body {
   text-decoration: underline;
 }
 
-/* Modal styling */
 .modal {
   display: none;
   position: fixed;
@@ -165,7 +147,6 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  /* Align items in column direction */
   padding: 20px;
 }
 
@@ -173,9 +154,7 @@ body {
   margin: auto;
   display: block;
   max-width: 90%;
-  /* Adjust to fit within the screen without scrolling */
   max-height: 80%;
-  /* Ensure the image height fits within the screen */
   height: auto;
   border-radius: 8px;
 }
@@ -183,9 +162,7 @@ body {
 #modalDescription {
   color: white;
   margin-top: 5px;
-  /* Reduced margin to move the description closer to the image */
   max-width: 90%;
-  /* Ensure the description fits within the screen width */
   text-align: center;
 }
 
@@ -205,28 +182,23 @@ body {
   cursor: pointer;
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    /* Stack the profile picture and text vertically */
     height: auto;
   }
 
   .profile-pic {
     margin-right: 0;
     margin-bottom: 1rem;
-    /* Add some space below the profile picture */
   }
 
   .about-text h1 {
     font-size: 2rem;
-    /* Scale the heading size down */
   }
 
   .about-text p {
     font-size: 1rem;
-    /* Scale the paragraph size down */
   }
 
   .gallery {
@@ -235,19 +207,15 @@ body {
 
   .gallery-item {
     width: 100%;
-    /* Make gallery items full-width on mobile */
     max-width: none;
   }
 
   .modal-content {
     max-width: 100%;
-    /* Ensure the image fits within the screen width on mobile */
     max-height: 70%;
-    /* Ensure the image fits within the screen height on mobile */
   }
 
   #modalDescription {
     max-width: 90%;
-    /* Ensure the description fits within the screen width */
   }
 }
