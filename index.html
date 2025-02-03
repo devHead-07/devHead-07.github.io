@@ -1,129 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div class="container">
-      <img src="./images/meghan.jpg" alt="Her Face" class="profile-pic">
-      <div class="about-text">
-        <h1>Meghan Alcida</h1>
-        <p>In my freshman year, I spent most of my time drawing, whether it was a creative piece using many references put into
-        one drawing, or just a simple drawing of one thing, I was playing drawing so much so other people noticed that I would
-        draw so much and asked me why. One day, my art life changed forever when I drew a man and it was the most realistic
-        drawing I had ever made and I was so proud of myself so I kept on drawing in that one style any time I felt like I
-        wanted to draw and I created magnificent pieces. I drew cats, dogs, glasses of water, butterflies, people, anything I
-        could think of I drew as long as I had a paper and pencil. I kept on at this for the rest of my years at Hamilton. Then,
-        I came to Jefferson where I was finally given Drawing and painting 1 and my teacher just demonstrated one thing that
-        clicked in my head that once again will change the way I draw objects and people forever, she made areas that had
-        objects in front of them darker to make it seem as though they were 3d and next to eachother and that's when it all hit
-        me, I always knew what it meant when people said darkness makes things seem like they have depth, but I've never really
+<body>
+  <div class="container">
+    <img src="./images/meghan.jpg" alt="Her Face" class="profile-pic">
+    <div class="about-text">
+      <h1>Meghan Alcida</h1>
+      <p>In my freshman year, I spent most of my time drawing, whether it was a creative piece using many references put
+        into
+        one drawing, or just a simple drawing of one thing, I was playing drawing so much so other people noticed that I
+        would
+        draw so much and asked me why. One day, my art life changed forever when I drew a man and it was the most
+        realistic
+        drawing I had ever made and I was so proud of myself so I kept on drawing in that one style any time I felt like
+        I
+        wanted to draw and I created magnificent pieces. I drew cats, dogs, glasses of water, butterflies, people,
+        anything I
+        could think of I drew as long as I had a paper and pencil. I kept on at this for the rest of my years at
+        Hamilton. Then,
+        I came to Jefferson where I was finally given Drawing and painting 1 and my teacher just demonstrated one thing
+        that
+        clicked in my head that once again will change the way I draw objects and people forever, she made areas that
+        had
+        objects in front of them darker to make it seem as though they were 3d and next to eachother and that's when it
+        all hit
+        me, I always knew what it meant when people said darkness makes things seem like they have depth, but I've never
+        really
         seen it. And ever since that I've applied it to every drawing I've done here so far and it's never failed 🥳</p>
-      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="gallery-item" onclick="openModal('images/art/art1.jpg', this)">
+      <img src="./images/art/art1.jpg" alt="Art Piece 1">
+      <p>A highly detailed painting of flowers, a bottle, and some fruits.</p>
     </div>
 
-    <div class="gallery">
-      <div class="gallery-item" onclick="openModal('images/art/art1.jpg', this)">
-        <img src="./images/art/art1.jpg" alt="Art Piece 1">
-        <p>A highly detailed painting of flowers, a bottle, and some fruits.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art2.jpg', this)">
-        <img src="./images/art/art2.jpg" alt="Art Piece 2">
-        <p>A cup above two books, all with highly detailed shadings.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art3.jpg', this)">
-        <img src="./images/art/art3.jpg" alt="Art Piece 3">
-        <p>Four of the same art piece of oranges; each square hss a different quality. One is monochrome, the other is highly detailed, etc.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art4.jpg', this)">
-        <img src="./images/art/art4.jpg" alt="Art Piece 4">
-        <p>Three different art pieces, all with highly detailed shading; the left features shadows with the different shapes. The right features a three-dimensional semicircle.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art5.jpg', this)">
-        <img src="./images/art/art5.jpg" alt="Art Piece 5">
-        <p>A very abstract cat with different colors.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art6.png', this)">
-        <img src="./images/art/art6.png" alt="Art Piece 6">
-        <p>Artwork of a woman's head withering away[?]</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art7.png', this)">
-        <img src="./images/art/art7.png" alt="Art Piece 7">
-        <p>A colorful depiction of a lion.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art8.png', this)">
-        <img src="./images/art/art8.png" alt="Art Piece 8">
-        <p>Realistic artwork of a confused man.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art9.png', this)">
-        <img src="./images/art/art9.png" alt="Art Piece 9">
-        <p>A woman with an abstract array of colors in the background.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art10.png', this)">
-        <img src="./images/art/art10.png" alt="Art Piece 10">
-        <p>A froggy :]</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art11.png', this)">
-        <img src="./images/art/art11.png" alt="Art Piece 11">
-        <p>A woman with glasses, various shading techniques are used.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art12.png', this)">
-        <img src="./images/art/art12.png" alt="Art Piece 12">
-        <p>A diver, oblivious to the shark behind him.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art13.jpg', this)">
-        <img src="./images/art/art13.jpg" alt="Art Piece 13">
-        <p>Self Portrait in the Summer.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art14.jpg', this)">
-        <img src="./images/art/art14.jpg" alt="Art Piece 14">
-        <p>A photorealistic bottle.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art15.jpg', this)">
-        <img src="./images/art/art15.jpg" alt="Art Piece 15">
-        <p>A playful self portrait with some cards.</p>
-      </div>
-
-      <div class="gallery-item" onclick="openModal('images/art/art16.jpeg', this)">
-        <img src="./images/art/art16.jpeg" alt="Art Piece 16">
-        <p>A portrait of Lana Del Rey and a mixture of her albums.</p>
-      </div>
-
+    <div class="gallery-item" onclick="openModal('images/art/art2.jpg', this)">
+      <img src="./images/art/art2.jpg" alt="Art Piece 2">
+      <p>A cup above two books, all with highly detailed shadings.</p>
     </div>
 
-    <div id="modal" class="modal">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <img class="modal-content" id="modalImage">
-      <p id="modalDescription"></p>
+    <div class="gallery-item" onclick="openModal('images/art/art3.jpg', this)">
+      <img src="./images/art/art3.jpg" alt="Art Piece 3">
+      <p>Four of the same art piece of oranges; each square hss a different quality. One is monochrome, the other is
+        highly detailed, etc.</p>
     </div>
 
-    <div class="contact">
-      <h2>Contact</h2>
-      <p>If you'd like to get in touch, please reach out via email or follow me!</p>
-      <p>Email: <a href="mailto:meghanalcida258@gmail.com">meghanalcida258@gmail.com</a></p>
-      <p>Instagram: <a href="https://instagram.com/its.meggss.official._" target="_blank">Meghan</a></p>
+    <div class="gallery-item" onclick="openModal('images/art/art4.jpg', this)">
+      <img src="./images/art/art4.jpg" alt="Art Piece 4">
+      <p>Three different art pieces, all with highly detailed shading; the left features shadows with the different
+        shapes. The right features a three-dimensional semicircle.</p>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="gallery-item" onclick="openModal('images/art/art5.jpg', this)">
+      <img src="./images/art/art5.jpg" alt="Art Piece 5">
+      <p>A very abstract cat with different colors.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art6.png', this)">
+      <img src="./images/art/art6.png" alt="Art Piece 6">
+      <p>Artwork of a woman's head withering away[?]</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art7.png', this)">
+      <img src="./images/art/art7.png" alt="Art Piece 7">
+      <p>A colorful depiction of a lion.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art8.png', this)">
+      <img src="./images/art/art8.png" alt="Art Piece 8">
+      <p>Realistic artwork of a confused man.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art9.png', this)">
+      <img src="./images/art/art9.png" alt="Art Piece 9">
+      <p>A woman with an abstract array of colors in the background.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art10.png', this)">
+      <img src="./images/art/art10.png" alt="Art Piece 10">
+      <p>A froggy :]</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art11.png', this)">
+      <img src="./images/art/art11.png" alt="Art Piece 11">
+      <p>A woman with glasses, various shading techniques are used.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art12.png', this)">
+      <img src="./images/art/art12.png" alt="Art Piece 12">
+      <p>A diver, oblivious to the shark behind him.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art13.jpg', this)">
+      <img src="./images/art/art13.jpg" alt="Art Piece 13">
+      <p>Self Portrait in the Summer.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art14.jpg', this)">
+      <img src="./images/art/art14.jpg" alt="Art Piece 14">
+      <p>A photorealistic bottle.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art15.jpg', this)">
+      <img src="./images/art/art15.jpg" alt="Art Piece 15">
+      <p>A playful self portrait with some cards.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art16.jpeg', this)">
+      <img src="./images/art/art16.jpeg" alt="Art Piece 16">
+      <p>A portrait of Lana Del Rey and a mixture of her albums.</p>
+    </div>
+
+    <div class="gallery-item" onclick="openModal('images/art/art17.jpeg', this)">
+      <img src="./images/art/art17.jpeg" alt="Art Piece 17">
+      <p>A photorealistic head of a dog.</p>
+    </div>
+
+  </div>
+
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <p id="modalDescription"></p>
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, please reach out via email or follow me!</p>
+    <p>Email: <a href="mailto:meghanalcida258@gmail.com">meghanalcida258@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/its.meggss.official._" target="_blank">Meghan</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 
 </html>
